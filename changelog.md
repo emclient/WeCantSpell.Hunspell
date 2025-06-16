@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## 6.0.1-em - 2025-05
+
+- Fixed crash when calculating suggestions for a word with empty phonetic transcription.
+- Fixed reading of affix files with inline comments.
+
 ## 6.0.0 - 2025-03
 
 - Add and remove words from in-memory `WordList` instances, resolving [Issue $41](https://github.com/aarondandy/WeCantSpell.Hunspell/issues/41).
